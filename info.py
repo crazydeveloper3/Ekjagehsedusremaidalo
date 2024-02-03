@@ -1,6 +1,6 @@
 from os import environ
 
-API_ID = int(environ.get('API_ID', '20389440'))
+API_ID = int(environ.get("API_ID", "20389440"))
 API_HASH = environ.get("API_HASH", "")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 FILE_CAPTION = environ.get("FILE_CAPTION", "<code>{file_name}</code>")
